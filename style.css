@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.controls, .timeline, .filter {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+#gridCanvas {
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid #ccc;
+  cursor: crosshair;
+}
+
+input[type="date"],
+input[type="text"],
+button,
+input[type="range"] {
+  padding: 5px;
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#layerFilters label {
+  margin-right: 10px;
+}
+
+#currentDate {
+  font-weight: bold;
+  min-width: 100px;
+  text-align: center;
+}
